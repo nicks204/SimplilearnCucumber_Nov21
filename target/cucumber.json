@@ -1,0 +1,231 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3244969328,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has navigated to the login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T06:38:56.771Z",
+        "before": [
+          {
+            "result": {
+              "duration": 986792774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.Setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Positive Login Scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 71886266,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 476083333,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters correct username and password",
+            "match": {
+              "location": "LoginStepDefs.user_enters_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 746901931,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login Button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491280,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to the Home Page",
+            "match": {
+              "location": "LoginStepDefs.user_should_be_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2066772989,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has navigated to the login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_to_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T06:39:02.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 650051997,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.Setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Positive Login Scenatio with Parameters",
+        "description": "",
+        "id": "login-feature;positive-login-scenatio-with-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 72401220,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Baseclass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 444075981,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters correct username \"abc@xyz.com\" and password \"Abc@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@xyz.com",
+                  "offset": 30
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefs.user_enters_correct_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 749397773,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on the Login Button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215564,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should be navigated to the Home Page",
+            "match": {
+              "location": "LoginStepDefs.user_should_be_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
